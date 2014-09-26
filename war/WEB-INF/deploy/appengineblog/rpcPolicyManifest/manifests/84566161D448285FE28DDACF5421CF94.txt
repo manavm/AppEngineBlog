@@ -1,0 +1,2 @@
+serviceClass: appengineblog.client.GreetingService
+path: 18B8A6BD7A1F71128683A19FBC878707.gwt.rpc
