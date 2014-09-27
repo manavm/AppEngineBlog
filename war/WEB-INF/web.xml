@@ -7,12 +7,12 @@
 
   <!-- Servlets -->
   <servlet>
-    <servlet-name>BlogPost</servlet-name>
-    <servlet-class>appengineblog.BlogPostServlet</servlet-class>
+    <servlet-name>MakePost</servlet-name>
+    <servlet-class>appengineblog.MakePostServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>BlogPost</servlet-name>
+    <servlet-name>MakePost</servlet-name>
     <url-pattern>/makepost</url-pattern>
   </servlet-mapping>
 
@@ -21,7 +21,7 @@
     <servlet-class>appengineblog.BlogPostsGetServlet</servlet-class>
   </servlet>
   
-  <servlet-mapping>
+  <servlet-mapping> 
     <servlet-name>BlogPostsGet</servlet-name>
     <url-pattern>/appengineblog</url-pattern>
   </servlet-mapping>
@@ -30,7 +30,7 @@
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>appengineblog.jsp</welcome-file>
+    <welcome-file>appengineblog</welcome-file>
   </welcome-file-list>
 
 </web-app>
